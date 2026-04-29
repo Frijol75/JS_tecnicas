@@ -1,0 +1,24 @@
+{
+  "name": "js_tecnicas",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Frijol75/JS_tecnicas#readme",
+  "bugs": {
+    "url": "https://github.com/Frijol75/JS_tecnicas/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Frijol75/JS_tecnicas.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "moment": "^2.30.1"
+  }
+}
