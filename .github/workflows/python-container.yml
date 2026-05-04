@@ -1,0 +1,15 @@
+name: Python Container Action
+
+on: push
+
+jobs:
+  run-python:
+    runs-on: ubuntu-latest
+    container: python:3.11
+
+    steps:
+      - name: Mostrar versión de Python
+        run: python --version
+
+      - name: Ejecutar código en Python
+        run: python -c "print('Hola, esta acción corre dentro de un contenedor de Python')"
